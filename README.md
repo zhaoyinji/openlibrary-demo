@@ -1,14 +1,28 @@
 # Openlibrary Demo
 
-## Available Scripts
+## Setup project
 
-In the project directory, you can run:
+### Install dependencies
 
-### `npm start`
+```
+npm i
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Get Google Book API key
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-# openlibrary-demo
+Go to your google credential console, then click CREATE CREDENTIALS, select API key.
+
+Click you new created API key, check Restrict key, select APIs -> Books API -> Save
+https://console.cloud.google.com/apis/credentials
+
+Paste the API into .evn file
+
+```
+REACT_APP_GOOGLE_API_KEY=YOUR_API_KEY
+```
+
+## Start project
+
+```
+npm start
+```

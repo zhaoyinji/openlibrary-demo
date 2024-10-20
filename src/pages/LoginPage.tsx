@@ -30,6 +30,7 @@ const LoginPage: React.FC = () => {
       <Typography variant="h4" gutterBottom>
         Login
       </Typography>
+      You can use any email and password to login.
       <form onSubmit={handleSubmit}>
         <Stack spacing={2} mt={2}>
           <TextField

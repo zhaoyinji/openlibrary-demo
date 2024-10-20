@@ -11,6 +11,7 @@ const App: React.FC = () => (
   <RecoilRoot>
     <AuthProvider>
       <Routes>
+        <Route path="/" element={<LoginPage />} />
         <Route path="login" element={<LoginPage />} />
         <Route
           path="search"
